@@ -23,10 +23,6 @@ def exibir_maquina(maquina: dict) -> None:
             linha += f"   s{TE[s][i]}    "
         print(linha)
 
-    print("  " + "-" * (16 + 10 * (ni + 1)))
-
     print(f"\n  Vetor de Saída VS[{ns + 1}]:")
     for s in range(ns + 1):
         print(f"    VS[s{s}] = {VS[s]}  (estado s{s} produz saída {VS[s]})")
-
-    print("=" * 60)
