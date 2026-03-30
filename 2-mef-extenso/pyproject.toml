@@ -1,0 +1,9 @@
+[project]
+name = "mef-extenso"
+version = "0.1.0"
+description = "Projeto 2 de Autômatos Finitos — Números por extenso via MEF"
+authors = [
+    { name = "Eugenio Lopes", email = "eugenio.lopes.090@ufrn.edu.br" }
+]
+requires-python = ">=3.12"
+dependencies = []
